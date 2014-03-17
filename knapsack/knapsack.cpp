@@ -2,83 +2,137 @@
 #include <algorithm>
 #include <iostream>
 #include <iterator>
+#include <new>
 using namespace std;
 
-vector<pair<int,int> > Item;
+unsigned int i, j, n, K, temp_v, temp_w;	// Number of items and Capacity are Non-negative
+vector<pair<pair<int,int>,int> > Item;
 // No. of decision variables is n
 // Capacity of Knapsack is K
 
-// bool pairCompareRatio(pair<int,int> i, pair<int,int> j) { return (float(i.first)/i.second)>(float(j.first)/j.second);}
+typedef struct Node {
+  int value, room, depth,estimate;
+  bool selected;
+  struct Node* leftS;
+  struct Node* rightNS;
+  struct Node* parent;
+} node;
 
-// Bellman Equations
-// int O(int k, int j){
-// 	if(j==0){
-// 		return 0;
-// 	}else if(Item[j].second<=k){
-// 		return max(O(k,j-1),Item[j].first+O(k-Item[j].second,j-1));
-// 	}else{
-// 		return O(k,j-1);
-// 	}
-// }
+bool pairCompareRatio(pair<pair<int,int>,int> i, pair<pair<int,int>,int> j) { return (float(i.first.first)/i.first.second)>(float(j.first.first)/j.first.second);}
+
+int estimate(int start, int room){
+  // cout<<"Sorted order"<<endl;
+  // for(i=0;i<n;i++){
+  // 	cout<<Items[i].first<<" "<<Items[i].second<<endl;
+  // }
+
+  int value=0,i=start;
+  while(room>0&&i<n){
+    if(Item[i].first.second<=room){
+      value += Item[i].first.first;
+      room -= Item[i++].first.second;
+    }else{
+      value += Item[i].first.first*(room/float(Item[i].first.second));
+      room=0;
+      i++;
+    }
+  }
+  return value;
+}
+
+int bestSolution = 0;
+node *best = NULL;
+int BnB(node* &n1){
+  if(n1->estimate < bestSolution){
+    // Bounding. Pruning.
+    return n1->estimate;
+  }
+  if(n1->room <= 0){
+    // Reached infeasibility
+    return n1->value;
+  }else if( n1->depth >= n){
+    // Feasible solution. Checking for optimality.
+    if(bestSolution<n1->value){
+      bestSolution = n1->value;
+      best = n1;
+    }
+    return n1->value;
+  }else{
+    node *selected = (node*)malloc(sizeof(node));
+    n1->leftS = selected;
+    selected->selected = true;
+    selected->parent = n1;
+    selected->room = n1->room - Item[n1->depth].first.second;
+    if(selected->room >= 0){
+      selected->value = n1->value+Item[n1->depth].first.first;
+      selected->depth = n1->depth+1;
+      selected->estimate = selected->value + estimate(selected->depth,selected->room);
+    }else{
+      selected->value = n1->value;
+      selected->depth = n1->depth+1;
+      selected->estimate = -1;
+    }
+
+    node *notselected = (node*)malloc(sizeof(node));
+    n1->rightNS = notselected;
+    notselected->selected = false;
+    notselected->parent = n1;
+    notselected->room = n1->room;
+    notselected->value = n1->value;
+    notselected->depth = n1->depth+1;
+    notselected->estimate = notselected->value + estimate(notselected->depth,notselected->room);
+
+    int valS = BnB(selected);
+    int valNS = BnB(notselected);
+    return max(valS, valNS);
+  }
+}
 
 int main(){
-	unsigned int i, j, n, K, temp_v, temp_w;	// Number of items and Capacity are Non-negative
-	// cout<<"Taking input values"<<endl;
-	cin>>n>>K;
-	for(i=0;i<n;i++){
-		cin>>temp_v>>temp_w;
-		Item.push_back(make_pair(temp_v,temp_w));
-	}
-	// cout<<"Items read: "<<Item.size()<<endl;
-	// sort(Item.begin(), Item.end(), pairCompareRatio);
-	// cout<<"Sorted order"<<endl;
-	// for(i=0;i<n;i++){
-	// 	cout<<Item[i].first<<" "<<Item[i].second<<endl;
-	// }
-	// cout<<"Optimal value "<<O(K,n-1)<<endl;
+  
+  // Taking input
+  cin>>n>>K;
+  for(i=0;i<n;i++){
+    cin>>temp_v>>temp_w;
+    Item.push_back(make_pair(make_pair(temp_v,temp_w),i));
+  }
 
-	// Initializing table
-	vector<vector<int> > DPM;
-	int val1, val2;
-	// cout<<"Constructing DPM"<<endl;
-	for(i=0;i<=n;i++){
-		vector<int> col;
-		for(j=0;j<=K;j++){
-			val1 = i>0?DPM[i-1][j]:0;
-			val2 = ((i>0)&&(j>=Item[i-1].second))?DPM[i-1][j-Item[i-1].second]+Item[i-1].first:0;
-			// cout<<i<<","<<j<<"\t"<<val1<<","<<val2<<endl;
-			col.push_back(max(val1,val2));
-		}
-		DPM.push_back(col);
-	}
+  sort(Item.begin(), Item.end(), pairCompareRatio);
 
-	// Traceback
-	// cout<<"DPM Table:"<<endl;
-	// for(i=0;i<=K;i++){
-	// 	for(j=0;j<=n;j++){
-	// 		cout<<DPM[j][i]<<" ";
-	// 	}
-	// 	cout<<endl;
-	// }
-	
-	vector<int> X; // Decision variable
-	unsigned int val=0;
-	for(i=n,j=K;i>0;i--){
-		if(j<=0||DPM[i][j]==DPM[i-1][j]){
-			X.push_back(0);
-			// cout<<"Not Selected"<<endl;
-		}else{
-			X.push_back(1);
-			j -= Item[i-1].second;
-			val += Item[i-1].first;
-			// cout<<"Selected"<<endl;
-		}
-	}
-	// cout<<"Done"<<endl;
-	cout<<val<<" "<<1<<endl;
-	for(int m=n-1;m>=0;m--){
-		cout<<X[m]<<" ";
-	}
-	cout<<endl;
-	return 1;
+  // cout<<"Sorted order"<<endl;
+  // for(i=0;i<n;i++){
+  //  cout<<Item[i].first.first<<" "<<Item[i].first.second<<" "<<Item[i].second<<endl;
+  // }
+
+  // cout<<estimate(0,K)<<" "<<estimate(1,K)<<" "<<estimate(2,K)<<endl;
+
+  // Branch & Bound approach
+  node *root = (node*)malloc(sizeof(node));
+  root->value = 0;
+  root->room = K;
+  root->depth = 0;
+  root->estimate = estimate(0,root->room);
+  root->selected = true;
+  root->parent = NULL;
+  cout<<"Begin"<<endl;
+  BnB(root);
+  cout<<"Done"<<Item.size()<<endl;
+  int * X = new (nothrow) int[Item.size()];
+  if(X==nullptr){
+    cout<<"Error allocating memory!";
+    return 0;
+  }
+  for(node *temp=best; temp!=NULL; temp=temp->parent){
+    // cout<<"depth: "<<temp->depth<<" :: "<<temp->selected<<endl;
+    X[Item[temp->depth-1].second] = temp->selected;
+  }	
+
+  // cout<<"Done"<<endl;
+  cout<<bestSolution<<" "<<1<<endl;
+  for(int m=0;m<n;m++){
+  	cout<<X[m]<<" ";
+  }
+  cout<<endl;
+  delete[] X;
+  return 1;
 }
