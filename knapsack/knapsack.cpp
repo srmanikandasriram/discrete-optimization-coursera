@@ -114,15 +114,15 @@ int main(){
   root->estimate = estimate(0,root->room);
   root->selected = true;
   root->parent = NULL;
-  cout<<"Begin"<<endl;
+  // cout<<"Begin"<<endl;
   BnB(root);
-  cout<<"Done"<<Item.size()<<endl;
+  // cout<<"Done"<<Item.size()<<endl;
   int * X = new (nothrow) int[Item.size()];
-  if(X==nullptr){
-    cout<<"Error allocating memory!";
-    return 0;
-  }
-  for(node *temp=best; temp!=NULL; temp=temp->parent){
+  // if(X==nullptr){
+  //   cout<<"Error allocating memory!";
+  //   return 0;
+  // }
+  for(node *temp=best; temp->parent!=NULL; temp=temp->parent){
     // cout<<"depth: "<<temp->depth<<" :: "<<temp->selected<<endl;
     X[Item[temp->depth-1].second] = temp->selected;
   }	
@@ -133,6 +133,6 @@ int main(){
   	cout<<X[m]<<" ";
   }
   cout<<endl;
-  delete[] X;
+  // delete[] X;
   return 1;
 }
