@@ -1,32 +1,38 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+import os
+from subprocess import Popen, PIPE
+import networkx as nx
+import matplotlib.pyplot as plt
 
 def solve_it(input_data):
-    # Modify this code to run your optimization algorithm
 
-    # parse the input
+    # Writes the inputData to a temporay file
+
+    tmp_file_name = 'tmp.data'
+    tmp_file = open(tmp_file_name, 'w')
+    tmp_file.write(input_data)
+    tmp_file.close()
+
+    # # Runs the command: java Solver -file=tmp.data
+    # tmp_file = open(tmp_file_name, 'r')
+    # process = Popen(['./Solver'], stdin=tmp_file, stdout=PIPE)
+    # (stdout, stderr) = process.communicate()
+    # # print stdout
+    # # removes the temporay file
+    # os.remove(tmp_file_name)
+
+    G = nx.Graph()
     lines = input_data.split('\n')
-
-    first_line = lines[0].split()
-    node_count = int(first_line[0])
-    edge_count = int(first_line[1])
-
-    edges = []
-    for i in range(1, edge_count + 1):
-        line = lines[i]
-        parts = line.split()
-        edges.append((int(parts[0]), int(parts[1])))
-
-    # build a trivial solution
-    # every node has its own color
-    solution = range(0, node_count)
-
-    # prepare the solution in the specified output format
-    output_data = str(node_count) + ' ' + str(0) + '\n'
-    output_data += ' '.join(map(str, solution))
-
-    return output_data
+    [N,E] = lines[0].split()
+    G.add_nodes_from(range(int(N)))
+    for l in lines[1:-1]:
+        a = l.split(' ')
+        G.add_edge(int(a[0]),int(a[1]))
+    nx.draw(G)
+    plt.show()
+    return 1 #stdout.strip()
 
 
 import sys
