@@ -15,24 +15,24 @@ def solve_it(input_data):
     tmp_file.write(input_data)
     tmp_file.close()
 
-    # # Runs the command: java Solver -file=tmp.data
-    # tmp_file = open(tmp_file_name, 'r')
-    # process = Popen(['./Solver'], stdin=tmp_file, stdout=PIPE)
-    # (stdout, stderr) = process.communicate()
-    # # print stdout
-    # # removes the temporay file
-    # os.remove(tmp_file_name)
+    # Runs the command: java Solver -file=tmp.data
+    tmp_file = open(tmp_file_name, 'r')
+    process = Popen(['./Solver'], stdin=tmp_file, stdout=PIPE)
+    (stdout, stderr) = process.communicate()
+    # print stdout
+    # removes the temporay file
+    os.remove(tmp_file_name)
 
-    G = nx.Graph()
-    lines = input_data.split('\n')
-    [N,E] = lines[0].split()
-    G.add_nodes_from(range(int(N)))
-    for l in lines[1:-1]:
-        a = l.split(' ')
-        G.add_edge(int(a[0]),int(a[1]))
-    nx.draw(G)
-    plt.show()
-    return 1 #stdout.strip()
+    # G = nx.Graph()
+    # lines = input_data.split('\n')
+    # [N,E] = lines[0].split()
+    # G.add_nodes_from(range(int(N)))
+    # for l in lines[1:-1]:
+    #     a = l.split(' ')
+    #     G.add_edge(int(a[0]),int(a[1]))
+    # nx.draw(G)
+    # plt.show()
+    return stdout.strip()
 
 
 import sys

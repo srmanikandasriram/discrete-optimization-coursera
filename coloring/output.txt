@@ -1,0 +1,1108 @@
+Sorted order: 45 7 33 35 32 47 16 27 42 44 6 11 15 19 20 29 31 43 1 9 22 3 8 12 26 28 4 5 17 37 41 46 49 2 10 14 24 34 48 23 25 30 36 40 13 18 38 39 0 21
+Current node is:	45 with degree:	23
+	 Color:	0	Valid!
+constraints updated for: 0	 0
+constraints updated for: 1	 0
+constraints updated for: 3	 0
+constraints updated for: 4	 0
+constraints updated for: 5	 0
+constraints updated for: 6	 0
+constraints updated for: 12	 0
+constraints updated for: 17	 0
+constraints updated for: 19	 0
+constraints updated for: 21	 0
+constraints updated for: 25	 0
+constraints updated for: 27	 0
+constraints updated for: 28	 0
+constraints updated for: 29	 0
+constraints updated for: 32	 0
+constraints updated for: 33	 0
+constraints updated for: 34	 0
+constraints updated for: 35	 0
+constraints updated for: 36	 0
+constraints updated for: 40	 0
+constraints updated for: 44	 0
+constraints updated for: 47	 0
+constraints updated for: 49	 0
+
+Current node is:	7 with degree:	20
+	 Color:	0	Valid!
+constraints updated for: 3	 0
+constraints updated for: 5	 0
+constraints updated for: 9	 0
+constraints updated for: 14	 0
+constraints updated for: 18	 0
+constraints updated for: 20	 0
+constraints updated for: 21	 0
+constraints updated for: 22	 0
+constraints updated for: 24	 0
+constraints updated for: 26	 0
+constraints updated for: 31	 0
+constraints updated for: 32	 0
+constraints updated for: 35	 0
+constraints updated for: 37	 0
+constraints updated for: 40	 0
+constraints updated for: 41	 0
+constraints updated for: 44	 0
+constraints updated for: 46	 0
+constraints updated for: 47	 0
+constraints updated for: 49	 0
+
+Current node is:	33 with degree:	19
+	 Color:	0	invalid
+New color being used
+	 Color:	1	Valid!
+constraints updated for: 3	 0 1
+constraints updated for: 6	 0 1
+constraints updated for: 9	 0 1
+constraints updated for: 11	 0 1
+constraints updated for: 15	 0 1
+constraints updated for: 16	 0 1
+constraints updated for: 17	 0 1
+constraints updated for: 18	 0 1
+constraints updated for: 26	 0 1
+constraints updated for: 28	 0 1
+constraints updated for: 31	 0 1
+constraints updated for: 34	 0 1
+constraints updated for: 39	 0 1
+constraints updated for: 41	 0 1
+constraints updated for: 43	 0 1
+constraints updated for: 44	 0 1
+constraints updated for: 45	 0 1
+constraints updated for: 46	 0 1
+constraints updated for: 47	 0 1
+
+Current node is:	35 with degree:	19
+	 Color:	0	invalid
+	 Color:	1	Valid!
+constraints updated for: 1	 0 1
+constraints updated for: 3	 0 1
+constraints updated for: 6	 0 1
+constraints updated for: 7	 0 1
+constraints updated for: 9	 0 1
+constraints updated for: 11	 0 1
+constraints updated for: 16	 0 1
+constraints updated for: 18	 0 1
+constraints updated for: 27	 0 1
+constraints updated for: 28	 0 1
+constraints updated for: 29	 0 1
+constraints updated for: 32	 0 1
+constraints updated for: 34	 0 1
+constraints updated for: 36	 0 1
+constraints updated for: 39	 0 1
+constraints updated for: 40	 0 1
+constraints updated for: 41	 0 1
+constraints updated for: 42	 0 1
+constraints updated for: 45	 0 1
+
+Current node is:	32 with degree:	18
+	 Color:	0	invalid
+	 Color:	1	invalid
+New color being used
+	 Color:	2	Valid!
+constraints updated for: 5	 0 2
+constraints updated for: 7	 0 2
+constraints updated for: 8	 0 2
+constraints updated for: 11	 0 2
+constraints updated for: 17	 0 2
+constraints updated for: 22	 0 2
+constraints updated for: 23	 0 2
+constraints updated for: 24	 0 2
+constraints updated for: 26	 0 2
+constraints updated for: 27	 0 2
+constraints updated for: 34	 0 2
+constraints updated for: 35	 0 2
+constraints updated for: 36	 0 2
+constraints updated for: 39	 0 2
+constraints updated for: 42	 0 2
+constraints updated for: 45	 0 2
+constraints updated for: 47	 0 2
+constraints updated for: 49	 0 2
+
+Current node is:	47 with degree:	18
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	invalid
+New color being used
+	 Color:	3	Valid!
+constraints updated for: 1	 0 1 3
+constraints updated for: 2	 0 1 3
+constraints updated for: 4	 0 1 3
+constraints updated for: 7	 0 1 3
+constraints updated for: 8	 0 1 3
+constraints updated for: 11	 0 1 3
+constraints updated for: 19	 0 1 3
+constraints updated for: 20	 0 1 3
+constraints updated for: 22	 0 1 3
+constraints updated for: 27	 0 1 3
+constraints updated for: 32	 0 1 3
+constraints updated for: 33	 0 1 3
+constraints updated for: 36	 0 1 3
+constraints updated for: 40	 0 1 3
+constraints updated for: 42	 0 1 3
+constraints updated for: 43	 0 1 3
+constraints updated for: 45	 0 1 3
+constraints updated for: 46	 0 1 3
+
+Current node is:	16 with degree:	17
+	 Color:	0	Valid!
+	 Color:	1	invalid
+	 Color:	2	Valid!
+	 Color:	3	Valid!
+constraints updated for: 1	 0 1 3
+constraints updated for: 4	 0 1 3
+constraints updated for: 6	 0 1 3
+constraints updated for: 8	 0 1 3
+constraints updated for: 12	 0 1 3
+constraints updated for: 15	 0 1 3
+constraints updated for: 17	 0 1 3
+constraints updated for: 19	 0 1 3
+constraints updated for: 25	 0 1 3
+constraints updated for: 29	 0 1 3
+constraints updated for: 30	 0 1 3
+constraints updated for: 33	 0 1 3
+constraints updated for: 35	 0 1 3
+constraints updated for: 38	 0 1 3
+constraints updated for: 41	 0 1 3
+constraints updated for: 46	 0 1 3
+constraints updated for: 48	 0 1 3
+
+Current node is:	27 with degree:	17
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	invalid
+New color being used
+	 Color:	4	Valid!
+constraints updated for: 1	 0 1 3 4
+constraints updated for: 4	 0 1 3 4
+constraints updated for: 8	 0 1 3 4
+constraints updated for: 15	 0 1 3 4
+constraints updated for: 22	 0 1 3 4
+constraints updated for: 23	 0 1 3 4
+constraints updated for: 24	 0 1 3 4
+constraints updated for: 26	 0 1 3 4
+constraints updated for: 29	 0 1 3 4
+constraints updated for: 30	 0 1 3 4
+constraints updated for: 32	 0 1 3 4
+constraints updated for: 35	 0 1 3 4
+constraints updated for: 41	 0 1 3 4
+constraints updated for: 44	 0 1 3 4
+constraints updated for: 45	 0 1 3 4
+constraints updated for: 47	 0 1 3 4
+constraints updated for: 48	 0 1 3 4
+
+Current node is:	42 with degree:	17
+	 Color:	0	Valid!
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	invalid
+	 Color:	4	Valid!
+constraints updated for: 0	 0
+constraints updated for: 2	 0
+constraints updated for: 5	 0
+constraints updated for: 10	 0
+constraints updated for: 18	 0
+constraints updated for: 19	 0
+constraints updated for: 20	 0
+constraints updated for: 23	 0
+constraints updated for: 26	 0
+constraints updated for: 32	 0
+constraints updated for: 35	 0
+constraints updated for: 36	 0
+constraints updated for: 38	 0
+constraints updated for: 41	 0
+constraints updated for: 44	 0
+constraints updated for: 47	 0
+constraints updated for: 49	 0
+
+Current node is:	44 with degree:	17
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	Valid!
+	 Color:	3	Valid!
+	 Color:	4	invalid
+constraints updated for: 4	 0 2 3 4
+constraints updated for: 7	 0 2 3 4
+constraints updated for: 9	 0 2 3 4
+constraints updated for: 15	 0 2 3 4
+constraints updated for: 17	 0 2 3 4
+constraints updated for: 20	 0 2 3 4
+constraints updated for: 21	 0 2 3 4
+constraints updated for: 22	 0 2 3 4
+constraints updated for: 27	 0 2 3 4
+constraints updated for: 29	 0 2 3 4
+constraints updated for: 33	 0 2 3 4
+constraints updated for: 34	 0 2 3 4
+constraints updated for: 41	 0 2 3 4
+constraints updated for: 42	 0 2 3 4
+constraints updated for: 43	 0 2 3 4
+constraints updated for: 45	 0 2 3 4
+constraints updated for: 49	 0 2 3 4
+
+Current node is:	6 with degree:	16
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	Valid!
+	 Color:	3	Valid!
+	 Color:	4	Valid!
+constraints updated for: 15	 0 1 2 4
+constraints updated for: 16	 0 1 2 4
+constraints updated for: 17	 0 1 2 4
+constraints updated for: 18	 0 1 2 4
+constraints updated for: 20	 0 1 2 4
+constraints updated for: 23	 0 1 2 4
+constraints updated for: 24	 0 1 2 4
+constraints updated for: 28	 0 1 2 4
+constraints updated for: 29	 0 1 2 4
+constraints updated for: 33	 0 1 2 4
+constraints updated for: 35	 0 1 2 4
+constraints updated for: 37	 0 1 2 4
+constraints updated for: 41	 0 1 2 4
+constraints updated for: 43	 0 1 2 4
+constraints updated for: 45	 0 1 2 4
+constraints updated for: 46	 0 1 2 4
+
+Current node is:	11 with degree:	16
+	 Color:	0	Valid!
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	invalid
+	 Color:	4	Valid!
+constraints updated for: 3	 0 1
+constraints updated for: 8	 0 1
+constraints updated for: 15	 0 1
+constraints updated for: 18	 0 1
+constraints updated for: 20	 0 1
+constraints updated for: 22	 0 1
+constraints updated for: 28	 0 1
+constraints updated for: 31	 0 1
+constraints updated for: 32	 0 1
+constraints updated for: 33	 0 1
+constraints updated for: 34	 0 1
+constraints updated for: 35	 0 1
+constraints updated for: 37	 0 1
+constraints updated for: 41	 0 1
+constraints updated for: 46	 0 1
+constraints updated for: 47	 0 1
+
+Current node is:	15 with degree:	16
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	Valid!
+	 Color:	4	invalid
+constraints updated for: 1	 0 1 3 4
+constraints updated for: 2	 0 1 3 4
+constraints updated for: 4	 0 1 3 4
+constraints updated for: 6	 0 1 3 4
+constraints updated for: 9	 0 1 3 4
+constraints updated for: 11	 0 1 3 4
+constraints updated for: 13	 0 1 3 4
+constraints updated for: 16	 0 1 3 4
+constraints updated for: 19	 0 1 3 4
+constraints updated for: 27	 0 1 3 4
+constraints updated for: 30	 0 1 3 4
+constraints updated for: 31	 0 1 3 4
+constraints updated for: 33	 0 1 3 4
+constraints updated for: 44	 0 1 3 4
+constraints updated for: 48	 0 1 3 4
+constraints updated for: 49	 0 1 3 4
+
+Current node is:	19 with degree:	16
+	 Color:	0	invalid
+	 Color:	1	Valid!
+	 Color:	2	Valid!
+	 Color:	3	invalid
+	 Color:	4	Valid!
+constraints updated for: 9	 0 1 2 3
+constraints updated for: 10	 0 1 2 3
+constraints updated for: 13	 0 1 2 3
+constraints updated for: 14	 0 1 2 3
+constraints updated for: 15	 0 1 2 3
+constraints updated for: 16	 0 1 2 3
+constraints updated for: 23	 0 1 2 3
+constraints updated for: 26	 0 1 2 3
+constraints updated for: 29	 0 1 2 3
+constraints updated for: 38	 0 1 2 3
+constraints updated for: 39	 0 1 2 3
+constraints updated for: 42	 0 1 2 3
+constraints updated for: 43	 0 1 2 3
+constraints updated for: 45	 0 1 2 3
+constraints updated for: 47	 0 1 2 3
+constraints updated for: 49	 0 1 2 3
+
+Current node is:	20 with degree:	16
+	 Color:	0	invalid
+	 Color:	1	Valid!
+	 Color:	2	invalid
+	 Color:	3	invalid
+	 Color:	4	Valid!
+constraints updated for: 1	 0 1 3 4
+constraints updated for: 4	 0 1 3 4
+constraints updated for: 6	 0 1 3 4
+constraints updated for: 7	 0 1 3 4
+constraints updated for: 8	 0 1 3 4
+constraints updated for: 10	 0 1 3 4
+constraints updated for: 11	 0 1 3 4
+constraints updated for: 12	 0 1 3 4
+constraints updated for: 13	 0 1 3 4
+constraints updated for: 24	 0 1 3 4
+constraints updated for: 28	 0 1 3 4
+constraints updated for: 37	 0 1 3 4
+constraints updated for: 40	 0 1 3 4
+constraints updated for: 42	 0 1 3 4
+constraints updated for: 44	 0 1 3 4
+constraints updated for: 47	 0 1 3 4
+
+Current node is:	29 with degree:	16
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	Valid!
+	 Color:	4	invalid
+constraints updated for: 6	 0 1 3
+constraints updated for: 12	 0 1 3
+constraints updated for: 13	 0 1 3
+constraints updated for: 14	 0 1 3
+constraints updated for: 16	 0 1 3
+constraints updated for: 17	 0 1 3
+constraints updated for: 19	 0 1 3
+constraints updated for: 22	 0 1 3
+constraints updated for: 23	 0 1 3
+constraints updated for: 26	 0 1 3
+constraints updated for: 27	 0 1 3
+constraints updated for: 31	 0 1 3
+constraints updated for: 35	 0 1 3
+constraints updated for: 43	 0 1 3
+constraints updated for: 44	 0 1 3
+constraints updated for: 45	 0 1 3
+
+Current node is:	31 with degree:	16
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	Valid!
+	 Color:	3	invalid
+	 Color:	4	Valid!
+constraints updated for: 1	 0 1 2 3 4
+constraints updated for: 7	 0 1 2 3 4
+constraints updated for: 8	 0 1 2 3 4
+constraints updated for: 10	 0 1 2 3 4
+constraints updated for: 11	 0 1 2 3 4
+constraints updated for: 12	 0 1 2 3 4
+constraints updated for: 15	 0 1 2 3 4
+constraints updated for: 18	 0 1 2 3 4
+constraints updated for: 29	 0 1 2 3 4
+constraints updated for: 30	 0 1 2 3 4
+constraints updated for: 33	 0 1 2 3 4
+constraints updated for: 36	 0 1 2 3 4
+constraints updated for: 38	 0 1 2 3 4
+constraints updated for: 40	 0 1 2 3 4
+constraints updated for: 46	 0 1 2 3 4
+constraints updated for: 48	 0 1 2 3 4
+
+Current node is:	43 with degree:	16
+	 Color:	0	Valid!
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	invalid
+	 Color:	4	Valid!
+constraints updated for: 0	 0
+constraints updated for: 4	 0
+constraints updated for: 5	 0
+constraints updated for: 6	 0
+constraints updated for: 8	 0
+constraints updated for: 9	 0
+constraints updated for: 12	 0
+constraints updated for: 19	 0
+constraints updated for: 23	 0
+constraints updated for: 28	 0
+constraints updated for: 29	 0
+constraints updated for: 33	 0
+constraints updated for: 34	 0
+constraints updated for: 37	 0
+constraints updated for: 44	 0
+constraints updated for: 47	 0
+
+Current node is:	1 with degree:	15
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	invalid
+	 Color:	4	invalid
+New color being used
+	 Color:	5	Valid!
+constraints updated for: 5	 0 2 5
+constraints updated for: 13	 0 2 5
+constraints updated for: 15	 0 2 5
+constraints updated for: 16	 0 2 5
+constraints updated for: 20	 0 2 5
+constraints updated for: 22	 0 2 5
+constraints updated for: 24	 0 2 5
+constraints updated for: 25	 0 2 5
+constraints updated for: 27	 0 2 5
+constraints updated for: 31	 0 2 5
+constraints updated for: 35	 0 2 5
+constraints updated for: 39	 0 2 5
+constraints updated for: 45	 0 2 5
+constraints updated for: 46	 0 2 5
+constraints updated for: 47	 0 2 5
+
+Current node is:	9 with degree:	15
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	invalid
+	 Color:	4	Valid!
+	 Color:	5	Valid!
+constraints updated for: 2	 0 3 4
+constraints updated for: 3	 0 3 4
+constraints updated for: 7	 0 3 4
+constraints updated for: 10	 0 3 4
+constraints updated for: 12	 0 3 4
+constraints updated for: 14	 0 3 4
+constraints updated for: 15	 0 3 4
+constraints updated for: 19	 0 3 4
+constraints updated for: 25	 0 3 4
+constraints updated for: 26	 0 3 4
+constraints updated for: 33	 0 3 4
+constraints updated for: 35	 0 3 4
+constraints updated for: 38	 0 3 4
+constraints updated for: 43	 0 3 4
+constraints updated for: 44	 0 3 4
+
+Current node is:	22 with degree:	15
+	 Color:	0	invalid
+	 Color:	1	Valid!
+	 Color:	2	invalid
+	 Color:	3	invalid
+	 Color:	4	invalid
+	 Color:	5	invalid
+constraints updated for: 1	 0 1 2 3 4
+constraints updated for: 7	 0 1 2 3 4
+constraints updated for: 11	 0 1 2 3 4
+constraints updated for: 17	 0 1 2 3 4
+constraints updated for: 18	 0 1 2 3 4
+constraints updated for: 21	 0 1 2 3 4
+constraints updated for: 27	 0 1 2 3 4
+constraints updated for: 29	 0 1 2 3 4
+constraints updated for: 30	 0 1 2 3 4
+constraints updated for: 32	 0 1 2 3 4
+constraints updated for: 41	 0 1 2 3 4
+constraints updated for: 44	 0 1 2 3 4
+constraints updated for: 47	 0 1 2 3 4
+constraints updated for: 48	 0 1 2 3 4
+constraints updated for: 49	 0 1 2 3 4
+
+Current node is:	3 with degree:	14
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	Valid!
+	 Color:	3	Valid!
+	 Color:	4	invalid
+	 Color:	5	Valid!
+constraints updated for: 0	 0 2
+constraints updated for: 2	 0 2
+constraints updated for: 5	 0 2
+constraints updated for: 7	 0 2
+constraints updated for: 8	 0 2
+constraints updated for: 9	 0 2
+constraints updated for: 11	 0 2
+constraints updated for: 25	 0 2
+constraints updated for: 30	 0 2
+constraints updated for: 33	 0 2
+constraints updated for: 35	 0 2
+constraints updated for: 36	 0 2
+constraints updated for: 40	 0 2
+constraints updated for: 45	 0 2
+
+Current node is:	8 with degree:	14
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	invalid
+	 Color:	4	invalid
+	 Color:	5	Valid!
+constraints updated for: 0	 0 2 5
+constraints updated for: 3	 0 2 5
+constraints updated for: 11	 0 2 5
+constraints updated for: 16	 0 2 5
+constraints updated for: 17	 0 2 5
+constraints updated for: 20	 0 2 5
+constraints updated for: 27	 0 2 5
+constraints updated for: 28	 0 2 5
+constraints updated for: 31	 0 2 5
+constraints updated for: 32	 0 2 5
+constraints updated for: 34	 0 2 5
+constraints updated for: 41	 0 2 5
+constraints updated for: 43	 0 2 5
+constraints updated for: 47	 0 2 5
+
+Current node is:	12 with degree:	14
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	invalid
+	 Color:	4	invalid
+	 Color:	5	Valid!
+constraints updated for: 2	 0 2 3 4 5
+constraints updated for: 4	 0 2 3 4 5
+constraints updated for: 9	 0 2 3 4 5
+constraints updated for: 14	 0 2 3 4 5
+constraints updated for: 16	 0 2 3 4 5
+constraints updated for: 17	 0 2 3 4 5
+constraints updated for: 20	 0 2 3 4 5
+constraints updated for: 28	 0 2 3 4 5
+constraints updated for: 29	 0 2 3 4 5
+constraints updated for: 31	 0 2 3 4 5
+constraints updated for: 43	 0 2 3 4 5
+constraints updated for: 45	 0 2 3 4 5
+constraints updated for: 48	 0 2 3 4 5
+constraints updated for: 49	 0 2 3 4 5
+
+Current node is:	26 with degree:	14
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	invalid
+	 Color:	4	invalid
+	 Color:	5	Valid!
+constraints updated for: 4	 0 1 2 3 4 5
+constraints updated for: 7	 0 1 2 3 4 5
+constraints updated for: 9	 0 1 2 3 4 5
+constraints updated for: 13	 0 1 2 3 4 5
+constraints updated for: 14	 0 1 2 3 4 5
+constraints updated for: 19	 0 1 2 3 4 5
+constraints updated for: 27	 0 1 2 3 4 5
+constraints updated for: 29	 0 1 2 3 4 5
+constraints updated for: 30	 0 1 2 3 4 5
+constraints updated for: 32	 0 1 2 3 4 5
+constraints updated for: 33	 0 1 2 3 4 5
+constraints updated for: 36	 0 1 2 3 4 5
+constraints updated for: 42	 0 1 2 3 4 5
+constraints updated for: 48	 0 1 2 3 4 5
+
+Current node is:	28 with degree:	14
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	Valid!
+	 Color:	4	Valid!
+	 Color:	5	invalid
+constraints updated for: 2	 0 2 3 4 5
+constraints updated for: 6	 0 2 3 4 5
+constraints updated for: 8	 0 2 3 4 5
+constraints updated for: 11	 0 2 3 4 5
+constraints updated for: 12	 0 2 3 4 5
+constraints updated for: 18	 0 2 3 4 5
+constraints updated for: 20	 0 2 3 4 5
+constraints updated for: 33	 0 2 3 4 5
+constraints updated for: 34	 0 2 3 4 5
+constraints updated for: 35	 0 2 3 4 5
+constraints updated for: 36	 0 2 3 4 5
+constraints updated for: 37	 0 2 3 4 5
+constraints updated for: 43	 0 2 3 4 5
+constraints updated for: 45	 0 2 3 4 5
+
+Current node is:	4 with degree:	13
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	invalid
+	 Color:	4	invalid
+	 Color:	5	invalid
+New color being used
+	 Color:	6	Valid!
+constraints updated for: 12	 0 1 2 3 4 6
+constraints updated for: 15	 0 1 2 3 4 6
+constraints updated for: 16	 0 1 2 3 4 6
+constraints updated for: 20	 0 1 2 3 4 6
+constraints updated for: 24	 0 1 2 3 4 6
+constraints updated for: 26	 0 1 2 3 4 6
+constraints updated for: 27	 0 1 2 3 4 6
+constraints updated for: 30	 0 1 2 3 4 6
+constraints updated for: 40	 0 1 2 3 4 6
+constraints updated for: 43	 0 1 2 3 4 6
+constraints updated for: 44	 0 1 2 3 4 6
+constraints updated for: 45	 0 1 2 3 4 6
+constraints updated for: 47	 0 1 2 3 4 6
+
+Current node is:	5 with degree:	13
+	 Color:	0	invalid
+	 Color:	1	Valid!
+	 Color:	2	invalid
+	 Color:	3	Valid!
+	 Color:	4	Valid!
+	 Color:	5	invalid
+	 Color:	6	Valid!
+constraints updated for: 0	 0 1 2 5
+constraints updated for: 1	 0 1 2 5
+constraints updated for: 3	 0 1 2 5
+constraints updated for: 7	 0 1 2 5
+constraints updated for: 18	 0 1 2 5
+constraints updated for: 25	 0 1 2 5
+constraints updated for: 32	 0 1 2 5
+constraints updated for: 37	 0 1 2 5
+constraints updated for: 42	 0 1 2 5
+constraints updated for: 43	 0 1 2 5
+constraints updated for: 45	 0 1 2 5
+constraints updated for: 46	 0 1 2 5
+constraints updated for: 49	 0 1 2 5
+
+Current node is:	17 with degree:	13
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	invalid
+	 Color:	4	Valid!
+	 Color:	5	invalid
+	 Color:	6	Valid!
+constraints updated for: 6	 0 1 3 4
+constraints updated for: 8	 0 1 3 4
+constraints updated for: 10	 0 1 3 4
+constraints updated for: 12	 0 1 3 4
+constraints updated for: 16	 0 1 3 4
+constraints updated for: 22	 0 1 3 4
+constraints updated for: 23	 0 1 3 4
+constraints updated for: 29	 0 1 3 4
+constraints updated for: 32	 0 1 3 4
+constraints updated for: 33	 0 1 3 4
+constraints updated for: 44	 0 1 3 4
+constraints updated for: 45	 0 1 3 4
+constraints updated for: 46	 0 1 3 4
+
+Current node is:	37 with degree:	13
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	invalid
+	 Color:	4	Valid!
+	 Color:	5	Valid!
+	 Color:	6	Valid!
+constraints updated for: 5	 0 2 4 5
+constraints updated for: 6	 0 2 4 5
+constraints updated for: 7	 0 2 4 5
+constraints updated for: 10	 0 2 4 5
+constraints updated for: 11	 0 2 4 5
+constraints updated for: 14	 0 2 4 5
+constraints updated for: 20	 0 2 4 5
+constraints updated for: 21	 0 2 4 5
+constraints updated for: 28	 0 2 4 5
+constraints updated for: 30	 0 2 4 5
+constraints updated for: 38	 0 2 4 5
+constraints updated for: 39	 0 2 4 5
+constraints updated for: 43	 0 2 4 5
+
+Current node is:	41 with degree:	13
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	Valid!
+	 Color:	4	invalid
+	 Color:	5	invalid
+	 Color:	6	Valid!
+constraints updated for: 6	 0 1 3 4
+constraints updated for: 7	 0 1 3 4
+constraints updated for: 8	 0 1 3 4
+constraints updated for: 11	 0 1 3 4
+constraints updated for: 13	 0 1 3 4
+constraints updated for: 16	 0 1 3 4
+constraints updated for: 22	 0 1 3 4
+constraints updated for: 27	 0 1 3 4
+constraints updated for: 33	 0 1 3 4
+constraints updated for: 35	 0 1 3 4
+constraints updated for: 38	 0 1 3 4
+constraints updated for: 42	 0 1 3 4
+constraints updated for: 44	 0 1 3 4
+
+Current node is:	46 with degree:	13
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	invalid
+	 Color:	4	invalid
+	 Color:	5	invalid
+	 Color:	6	Valid!
+constraints updated for: 1	 0 1 2 3 4 6
+constraints updated for: 2	 0 1 2 3 4 6
+constraints updated for: 5	 0 1 2 3 4 6
+constraints updated for: 6	 0 1 2 3 4 6
+constraints updated for: 7	 0 1 2 3 4 6
+constraints updated for: 11	 0 1 2 3 4 6
+constraints updated for: 16	 0 1 2 3 4 6
+constraints updated for: 17	 0 1 2 3 4 6
+constraints updated for: 25	 0 1 2 3 4 6
+constraints updated for: 31	 0 1 2 3 4 6
+constraints updated for: 33	 0 1 2 3 4 6
+constraints updated for: 40	 0 1 2 3 4 6
+constraints updated for: 47	 0 1 2 3 4 6
+
+Current node is:	49 with degree:	13
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	invalid
+	 Color:	4	Valid!
+	 Color:	5	invalid
+	 Color:	6	Valid!
+constraints updated for: 0	 0 1 2 4 5
+constraints updated for: 5	 0 1 2 4 5
+constraints updated for: 7	 0 1 2 4 5
+constraints updated for: 12	 0 1 2 4 5
+constraints updated for: 14	 0 1 2 4 5
+constraints updated for: 15	 0 1 2 4 5
+constraints updated for: 19	 0 1 2 4 5
+constraints updated for: 22	 0 1 2 4 5
+constraints updated for: 32	 0 1 2 4 5
+constraints updated for: 36	 0 1 2 4 5
+constraints updated for: 42	 0 1 2 4 5
+constraints updated for: 44	 0 1 2 4 5
+constraints updated for: 45	 0 1 2 4 5
+
+Current node is:	2 with degree:	12
+	 Color:	0	invalid
+	 Color:	1	Valid!
+	 Color:	2	invalid
+	 Color:	3	invalid
+	 Color:	4	invalid
+	 Color:	5	invalid
+	 Color:	6	invalid
+constraints updated for: 3	 0 1 4 5
+constraints updated for: 9	 0 1 4 5
+constraints updated for: 10	 0 1 4 5
+constraints updated for: 12	 0 1 4 5
+constraints updated for: 15	 0 1 4 5
+constraints updated for: 21	 0 1 4 5
+constraints updated for: 28	 0 1 4 5
+constraints updated for: 36	 0 1 4 5
+constraints updated for: 42	 0 1 4 5
+constraints updated for: 46	 0 1 4 5
+constraints updated for: 47	 0 1 4 5
+constraints updated for: 48	 0 1 4 5
+
+Current node is:	10 with degree:	12
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	Valid!
+	 Color:	4	invalid
+	 Color:	5	Valid!
+	 Color:	6	Valid!
+constraints updated for: 0	 0 1 2 3 4 5
+constraints updated for: 2	 0 1 2 3 4 5
+constraints updated for: 9	 0 1 2 3 4 5
+constraints updated for: 17	 0 1 2 3 4 5
+constraints updated for: 19	 0 1 2 3 4 5
+constraints updated for: 20	 0 1 2 3 4 5
+constraints updated for: 30	 0 1 2 3 4 5
+constraints updated for: 31	 0 1 2 3 4 5
+constraints updated for: 37	 0 1 2 3 4 5
+constraints updated for: 38	 0 1 2 3 4 5
+constraints updated for: 39	 0 1 2 3 4 5
+constraints updated for: 42	 0 1 2 3 4 5
+
+Current node is:	14 with degree:	12
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	Valid!
+	 Color:	3	invalid
+	 Color:	4	invalid
+	 Color:	5	invalid
+	 Color:	6	Valid!
+constraints updated for: 7	 1 2 3 4 5 6
+constraints updated for: 9	 1 2 3 4 5 6
+constraints updated for: 12	 1 2 3 4 5 6
+constraints updated for: 13	 1 2 3 4 5 6
+constraints updated for: 19	 1 2 3 4 5 6
+constraints updated for: 23	 1 2 3 4 5 6
+constraints updated for: 26	 1 2 3 4 5 6
+constraints updated for: 29	 1 2 3 4 5 6
+constraints updated for: 37	 1 2 3 4 5 6
+constraints updated for: 39	 1 2 3 4 5 6
+constraints updated for: 48	 1 2 3 4 5 6
+constraints updated for: 49	 1 2 3 4 5 6
+
+Current node is:	24 with degree:	12
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	Valid!
+	 Color:	4	invalid
+	 Color:	5	invalid
+	 Color:	6	invalid
+constraints updated for: 1	 0 1 2 3 4 6
+constraints updated for: 4	 0 1 2 3 4 6
+constraints updated for: 6	 0 1 2 3 4 6
+constraints updated for: 7	 0 1 2 3 4 6
+constraints updated for: 13	 0 1 2 3 4 6
+constraints updated for: 20	 0 1 2 3 4 6
+constraints updated for: 21	 0 1 2 3 4 6
+constraints updated for: 25	 0 1 2 3 4 6
+constraints updated for: 27	 0 1 2 3 4 6
+constraints updated for: 32	 0 1 2 3 4 6
+constraints updated for: 40	 0 1 2 3 4 6
+constraints updated for: 48	 0 1 2 3 4 6
+
+Current node is:	34 with degree:	12
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	invalid
+	 Color:	4	Valid!
+	 Color:	5	invalid
+	 Color:	6	Valid!
+constraints updated for: 8	 0 1 2 3 4
+constraints updated for: 11	 0 1 2 3 4
+constraints updated for: 23	 0 1 2 3 4
+constraints updated for: 25	 0 1 2 3 4
+constraints updated for: 28	 0 1 2 3 4
+constraints updated for: 32	 0 1 2 3 4
+constraints updated for: 33	 0 1 2 3 4
+constraints updated for: 35	 0 1 2 3 4
+constraints updated for: 40	 0 1 2 3 4
+constraints updated for: 43	 0 1 2 3 4
+constraints updated for: 44	 0 1 2 3 4
+constraints updated for: 45	 0 1 2 3 4
+
+Current node is:	48 with degree:	12
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	invalid
+	 Color:	4	invalid
+	 Color:	5	invalid
+	 Color:	6	Valid!
+constraints updated for: 2	 0 2 3 4 5 6
+constraints updated for: 12	 0 2 3 4 5 6
+constraints updated for: 14	 0 2 3 4 5 6
+constraints updated for: 15	 0 2 3 4 5 6
+constraints updated for: 16	 0 2 3 4 5 6
+constraints updated for: 22	 0 2 3 4 5 6
+constraints updated for: 24	 0 2 3 4 5 6
+constraints updated for: 25	 0 2 3 4 5 6
+constraints updated for: 26	 0 2 3 4 5 6
+constraints updated for: 27	 0 2 3 4 5 6
+constraints updated for: 31	 0 2 3 4 5 6
+constraints updated for: 38	 0 2 3 4 5 6
+
+Current node is:	23 with degree:	11
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	invalid
+	 Color:	4	invalid
+	 Color:	5	Valid!
+	 Color:	6	Valid!
+constraints updated for: 6	 0 1 3 4 5 6
+constraints updated for: 13	 0 1 3 4 5 6
+constraints updated for: 14	 0 1 3 4 5 6
+constraints updated for: 17	 0 1 3 4 5 6
+constraints updated for: 19	 0 1 3 4 5 6
+constraints updated for: 27	 0 1 3 4 5 6
+constraints updated for: 29	 0 1 3 4 5 6
+constraints updated for: 32	 0 1 3 4 5 6
+constraints updated for: 34	 0 1 3 4 5 6
+constraints updated for: 42	 0 1 3 4 5 6
+constraints updated for: 43	 0 1 3 4 5 6
+
+Current node is:	25 with degree:	11
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	invalid
+	 Color:	4	invalid
+	 Color:	5	invalid
+	 Color:	6	invalid
+New color being used
+	 Color:	7	Valid!
+constraints updated for: 1	 0 1 2 3 4 6 7
+constraints updated for: 3	 0 1 2 3 4 6 7
+constraints updated for: 5	 0 1 2 3 4 6 7
+constraints updated for: 9	 0 1 2 3 4 6 7
+constraints updated for: 16	 0 1 2 3 4 6 7
+constraints updated for: 21	 0 1 2 3 4 6 7
+constraints updated for: 24	 0 1 2 3 4 6 7
+constraints updated for: 34	 0 1 2 3 4 6 7
+constraints updated for: 45	 0 1 2 3 4 6 7
+constraints updated for: 46	 0 1 2 3 4 6 7
+constraints updated for: 48	 0 1 2 3 4 6 7
+
+Current node is:	30 with degree:	11
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	invalid
+	 Color:	4	invalid
+	 Color:	5	invalid
+	 Color:	6	invalid
+	 Color:	7	Valid!
+constraints updated for: 3	 0 1 4 5 7
+constraints updated for: 4	 0 1 4 5 7
+constraints updated for: 10	 0 1 4 5 7
+constraints updated for: 15	 0 1 4 5 7
+constraints updated for: 16	 0 1 4 5 7
+constraints updated for: 22	 0 1 4 5 7
+constraints updated for: 26	 0 1 4 5 7
+constraints updated for: 27	 0 1 4 5 7
+constraints updated for: 31	 0 1 4 5 7
+constraints updated for: 37	 0 1 4 5 7
+constraints updated for: 39	 0 1 4 5 7
+
+Current node is:	36 with degree:	11
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	invalid
+	 Color:	4	invalid
+	 Color:	5	invalid
+	 Color:	6	Valid!
+	 Color:	7	Valid!
+constraints updated for: 2	 0 2 3 4 5 6
+constraints updated for: 3	 0 2 3 4 5 6
+constraints updated for: 26	 0 2 3 4 5 6
+constraints updated for: 28	 0 2 3 4 5 6
+constraints updated for: 31	 0 2 3 4 5 6
+constraints updated for: 32	 0 2 3 4 5 6
+constraints updated for: 35	 0 2 3 4 5 6
+constraints updated for: 42	 0 2 3 4 5 6
+constraints updated for: 45	 0 2 3 4 5 6
+constraints updated for: 47	 0 2 3 4 5 6
+constraints updated for: 49	 0 2 3 4 5 6
+
+Current node is:	40 with degree:	11
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	invalid
+	 Color:	4	invalid
+	 Color:	5	Valid!
+	 Color:	6	invalid
+	 Color:	7	Valid!
+constraints updated for: 3	 0 1 4 5 6 7
+constraints updated for: 4	 0 1 4 5 6 7
+constraints updated for: 7	 0 1 4 5 6 7
+constraints updated for: 20	 0 1 4 5 6 7
+constraints updated for: 24	 0 1 4 5 6 7
+constraints updated for: 31	 0 1 4 5 6 7
+constraints updated for: 34	 0 1 4 5 6 7
+constraints updated for: 35	 0 1 4 5 6 7
+constraints updated for: 45	 0 1 4 5 6 7
+constraints updated for: 46	 0 1 4 5 6 7
+constraints updated for: 47	 0 1 4 5 6 7
+
+Current node is:	13 with degree:	10
+	 Color:	0	Valid!
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	invalid
+	 Color:	4	Valid!
+	 Color:	5	invalid
+	 Color:	6	Valid!
+	 Color:	7	Valid!
+constraints updated for: 1	 0 1 2 3 4 6 7
+constraints updated for: 14	 0 1 2 3 4 6 7
+constraints updated for: 15	 0 1 2 3 4 6 7
+constraints updated for: 19	 0 1 2 3 4 6 7
+constraints updated for: 20	 0 1 2 3 4 6 7
+constraints updated for: 23	 0 1 2 3 4 6 7
+constraints updated for: 24	 0 1 2 3 4 6 7
+constraints updated for: 26	 0 1 2 3 4 6 7
+constraints updated for: 29	 0 1 2 3 4 6 7
+constraints updated for: 41	 0 1 2 3 4 6 7
+
+Current node is:	18 with degree:	10
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	invalid
+	 Color:	4	Valid!
+	 Color:	5	Valid!
+	 Color:	6	Valid!
+	 Color:	7	Valid!
+constraints updated for: 5	 0 2 4 5 6 7
+constraints updated for: 6	 0 2 4 5 6 7
+constraints updated for: 7	 0 2 4 5 6 7
+constraints updated for: 11	 0 2 4 5 6 7
+constraints updated for: 22	 0 2 4 5 6 7
+constraints updated for: 28	 0 2 4 5 6 7
+constraints updated for: 31	 0 2 4 5 6 7
+constraints updated for: 33	 0 2 4 5 6 7
+constraints updated for: 35	 0 2 4 5 6 7
+constraints updated for: 42	 0 2 4 5 6 7
+
+Current node is:	38 with degree:	9
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	invalid
+	 Color:	4	invalid
+	 Color:	5	Valid!
+	 Color:	6	invalid
+	 Color:	7	Valid!
+constraints updated for: 9	 0 1 2 3 5 7
+constraints updated for: 10	 0 1 2 3 5 7
+constraints updated for: 16	 0 1 2 3 5 7
+constraints updated for: 19	 0 1 2 3 5 7
+constraints updated for: 31	 0 1 2 3 5 7
+constraints updated for: 37	 0 1 2 3 5 7
+constraints updated for: 41	 0 1 2 3 5 7
+constraints updated for: 42	 0 1 2 3 5 7
+constraints updated for: 48	 0 1 2 3 5 7
+
+Current node is:	39 with degree:	9
+	 Color:	0	Valid!
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	invalid
+	 Color:	4	invalid
+	 Color:	5	invalid
+	 Color:	6	Valid!
+	 Color:	7	invalid
+constraints updated for: 1	 0 1 2 3 4 6 7
+constraints updated for: 10	 0 1 2 3 4 6 7
+constraints updated for: 14	 0 1 2 3 4 6 7
+constraints updated for: 19	 0 1 2 3 4 6 7
+constraints updated for: 30	 0 1 2 3 4 6 7
+constraints updated for: 32	 0 1 2 3 4 6 7
+constraints updated for: 33	 0 1 2 3 4 6 7
+constraints updated for: 35	 0 1 2 3 4 6 7
+constraints updated for: 37	 0 1 2 3 4 6 7
+
+Current node is:	0 with degree:	8
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	invalid
+	 Color:	4	invalid
+	 Color:	5	invalid
+	 Color:	6	Valid!
+	 Color:	7	Valid!
+constraints updated for: 3	 0 1 4 5 6 7
+constraints updated for: 5	 0 1 4 5 6 7
+constraints updated for: 8	 0 1 4 5 6 7
+constraints updated for: 10	 0 1 4 5 6 7
+constraints updated for: 42	 0 1 4 5 6 7
+constraints updated for: 43	 0 1 4 5 6 7
+constraints updated for: 45	 0 1 4 5 6 7
+constraints updated for: 49	 0 1 4 5 6 7
+
+Current node is:	21 with degree:	8
+	 Color:	0	invalid
+	 Color:	1	invalid
+	 Color:	2	invalid
+	 Color:	3	invalid
+	 Color:	4	invalid
+	 Color:	5	Valid!
+	 Color:	6	Valid!
+	 Color:	7	invalid
+constraints updated for: 2	 0 2 3 4 5 6
+constraints updated for: 7	 0 2 3 4 5 6
+constraints updated for: 22	 0 2 3 4 5 6
+constraints updated for: 24	 0 2 3 4 5 6
+constraints updated for: 25	 0 2 3 4 5 6
+constraints updated for: 37	 0 2 3 4 5 6
+constraints updated for: 44	 0 2 3 4 5 6
+constraints updated for: 45	 0 2 3 4 5 6
+
+8 1
+6 5 1 2 6 1 2 0 5 4 3 0 5 0 2 3 0 4 4 1 1 5 1 5 3 7 5 4 3 3 7 2 2 1 4 1 6 4 5 0 5 3 0 0 2 0 6 3 6 4 
