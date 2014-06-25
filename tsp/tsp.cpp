@@ -13,7 +13,7 @@ typedef struct Node{
 
 int main(){
 	ios_base::sync_with_stdio(false);
-	unsigned int N,E,u,v;
+	unsigned int N,u,v;
 	cin>>N>>E;
 	vector<node*> node_list;
 	vector<pair<int,int> > node_order;	// <degree,node>
